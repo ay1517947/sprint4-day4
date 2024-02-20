@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application Form</title>
+</head>
+<body>
+    <form action="">
+        <h1>Job Application Form</h1>
+        <fieldset>
+            <legend>Personal Information</legend>
+            <p>Full Name:* <input type="text" name="name" id="name"required></p>
+            <p>Email:* <input type="email" name="email" id="email"required></p>
+            <p>Phone Number:* <input type="number" name="number" id="number"required></p>
+            <p>Address: <textarea name="Address" id="Address" cols="20" rows="4"></textarea></p>
+        </fieldset>
+        <fieldset>
+            <legend>Work Experience</legend>
+            <p>Previous Job Title:*</p>
+            <input type="text" name="Job_title" id="Job_title"required>
+            <p>Year of Experience:*</p>
+            <input type="text" name="experience" id="experience"required>
+            <p>Highest Education:*</p>
+            <input type="text" name="Education" id="Education"required>
+        </fieldset>
+        <fieldset>
+            <legend>Availability</legend>
+            <p>Available Start Date:* <input type="date" name="start_date" id="start_date"required></p>
+            <p>Hours Available per Week:* <input type="number" name="Hours" id="Hours"required></p>
+            <p>Preferred Work Schedule: <input type="text" name="Schedule" id="Schedule"></p>
+        </fieldset><br>
+        <input type="submit" value="Submit Application">
+    </form>
+</body>
+</html>
